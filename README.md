@@ -1,1 +1,10 @@
-# BP-neural-network-based-reconstruction-method-for-radiation-field-applications
+BP neural network based reconstruction method for radiation field applications
+Wen Zhou a,b, Guomin Sun a, Li Fang a,b , Hui Wang a, Zihui Yang a, Jianye Wang a
+a Key Laboratory of Neutronics and Radiation Safety, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, 230031, China
+b University of Science and Technology of China, Hefei, Anhui, 230027, China
+
+Abstract
+In order to achieve optimal radiation protection, rapid and accurate reconstruction of radiation field has vital significance in the selection of working paths during the overhaul of nuclear power plants and the decommissioning of nuclear facilities. The radiation field is usually reconstructed by various interpolation methods, but the reconstruction accuracy of such methods is insufficient, With the improvement of AI technology, neural networks have great potential in radiation field reconstruction, but conventional neural networks is prone to local minima and gradient disappearance. This paper aims to develop a radiation field reconstruction method based on an adaptive BP neural network method with learning rate decay and a corresponding sampling method for multisampling in places where flux gradient changes drastically, and verify its accuracy. The proposed method achieves global optimality and avoids gradient disappearance by virtue of adaptive algorithm and learning rate decay, ensuring that the radiation field is reconstructed with the smallest relative average error when the sampling point is determined, moreover, the proposed sampling method can greatly improve the accuracy of radiation field reconstruction. The accuracy of the proposed method was verified with three MC simulated radiation fields with dual-sources, multiple shielding materials and various geometric complexity. The results show that the proposed method is at least 15000 times faster than the MC method with maximum relative error of 1.7%, 6.8%, and 7.8% respectively. The merit of this method was preliminarily verified, further testing is underway to validate its application in real world scenarios.
+
+Keywords: Radiation field; Photon shielding; Regression analysis; Rapid reconstruct; BP neural network; SuperMC
+
